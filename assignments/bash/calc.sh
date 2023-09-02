@@ -17,19 +17,19 @@ while [ "$continue" = "y" ]; do
 
 	case $option in
 	1)
-		sum=$(echo " $n1 + $n2" | bc -l)
+		sum=$((n1 + n2))
 		echo "$n1 + $n2 =" "$sum"
 		;;
 	2)
-		sum=$(echo "$n1 - $n2" | bc -l)
+		sum=$((n1 - n2))
 		echo "$n1 - $n2 =" "$sum"
 		;;
 	3)
-		sum=$(echo "$n1 * $n2" | bc -l)
+		sum=$((n1 * n2))
 		echo "$n1 * $n2 =" "$sum"
 		;;
 	4)
-		sum=$(echo "$n1 / $n2" | bc -l)
+		sum=$((n1 / n2))
 		echo "$n1 / $n2 =" "$sum"
 		;;
 	*) echo "invalid choice" ;;
@@ -37,6 +37,7 @@ while [ "$continue" = "y" ]; do
 
 	read -rp "Do you want to continue y/n: " continue
 	if [ "$continue" != "y" ]; then
+		echo "Bye!"
 		exit
 	fi
 done
