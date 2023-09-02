@@ -5,9 +5,9 @@
 # For ease of debugging you can write the code in a file marco.sh and (re)load the definitions to your shell by executing source marco.sh.
 
 marco() {
-	current_dir=$(pwd)
+	pwd >~/marco
 }
 
 polo() {
-	cd "$current_dir" || exit
+	cd $(cat ~/marco)
 }
