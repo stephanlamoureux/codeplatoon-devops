@@ -3,11 +3,11 @@
 echo "Basic Calculator"
 printf "\n"
 
-sum=0
-continue="y"
 read -rp "First number: " n1
 read -rp "Second number: " n2
 
+sum=0
+continue="y"
 while [ "$continue" = "y" ]; do
 	echo "1.Addition"
 	echo "2.Subtraction"
