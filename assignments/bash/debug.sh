@@ -2,7 +2,7 @@
 
 count=0
 while true; do
-	# &> is stderr outputted to a file named log
+	# &> is stdout and stderr outputted to a file
 	./test.sh &>log
 	# $? is the return code of the previous command. Anything other than 0 is an error.
 	if [ $? != 0 ]; then
