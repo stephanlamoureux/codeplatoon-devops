@@ -1,0 +1,36 @@
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+body {
+	background: #0093e9;
+	background: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+	background-attachment: fixed;
+}
