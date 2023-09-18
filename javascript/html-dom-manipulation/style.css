@@ -1,0 +1,118 @@
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	background: #0093e9;
+	background: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+	background-attachment: fixed;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+h1 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	padding: 20px;
+	font-weight: 600;
+}
+
+main {
+	margin-top: 50px;
+}
+
+.image-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 25px;
+}
+
+.image-container {
+	flex: 0 0 calc(33.33% - 20px);
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.image {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+	filter: drop-shadow(5px 5px 10px #000000);
+	transition: ease all 0.2s;
+}
+
+.button {
+	margin: 20px auto 0 auto;
+	display: block;
+	background-color: rgba(151, 0, 255, 0.75);
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.button:hover {
+	background-color: rgba(151, 0, 255, 1);
+	transition: background-color 0.2s ease;
+}
+
+.button:disabled {
+	cursor: default;
+	background-color: rgba(151, 0, 255, 1);
+}
+
+footer {
+	text-align: center;
+	margin: 50px 0 25px 0;
+}
+
+.footer-link {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 2rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+	text-decoration: none;
+	color: rgb(255, 252, 80);
+}
+
+.footer-link:hover {
+	border-bottom: 2px dashed rgb(255, 252, 80);
+}
+
+.footer-link:active {
+	color: rgb(255, 252, 80);
+}
+
+@media screen and (max-width: 900px) {
+	.image-grid {
+		flex-direction: column;
+	}
+}

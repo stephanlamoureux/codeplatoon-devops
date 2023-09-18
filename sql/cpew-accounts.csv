@@ -1,0 +1,15 @@
+"account_id";"first_name";"last_name";"email";"password";"salary";"city";"state";"age"
+1;"James";"Butt";"jbutt@gmail.com";"1b9ef408e82e38346e6ebebf2dcc5ece";47455.21;"New York";"NY";29
+4;"Lenna";"Paprocki";"lpaprocki@hotmail.com";"3bd5b329d175d85bb46b78623153e083";66120.79;"New York";"NY";26
+6;"Simona";"Morasca";"simona@morasca.com";"b00cc3487bce69b13854779af4cb465a";69198.25;"New York";"NY";42
+7;"Mitsue";"Tollner";"mitsue_tollner@yahoo.com";"fb778b1ccdede07fc8656fe6e6c5c6a7";59679.58;"New York";"NY";35
+8;"Leota";"Dilliard";"leota@hotmail.com";"0e40896cce848beb4237f1e4fef5204e";51127.86;"New York";"NY";38
+10;"Kris";"Marrier";"kris@gmail.com";"830d2342ce8166f53f569ec822eea115";74313.15;"New York";"NY";33
+11;"Minna";"Amigon";"minna_amigon@yahoo.com";"02d695a819461ba56acb4edb2b304ad8";41799.06;"Los Angeles";"CA";43
+12;"Abel";"Maclead";"amaclead@gmail.com";"7576e09f8eaa7b9030fe898cc3247a87";65363.83;"Los Angeles";"CA";40
+13;"Kiley";"Caldarera";"kiley_caldarera@aol.com";"5d253687ac595809d119ec2d03ff7ae7";55721.31;"Los Angeles";"CA";30
+15;"Cammy";"Albares";"calbares@gmail.com";"d2ec5a9c5fb7c3802c9dfb65e17a52c4";60430.4;"Chicago";"IL";30
+16;"Mattie";"Poquette";"mattie@aol.com";"931256559e0f69a7e85c5f951b7ee281";86685.8;"Chicago";"IL";44
+17;"Meaghan";"Garufi";"meaghan@hotmail.com";"1321e3b811f46d603933ca63e6c547af";43156.55;"Chicago";"IL";33
+19;"Yuki";"Whobrey";"yuki_whobrey@aol.com";"2229eef349226401c1e3a5c224b70d10";79802.23;"Houston";"TX";41
+20;"Fletcher";"Flosi";"fletcher_flosi@yahoo.com";"22c9a5ad5f4c5dedd9fbf0c68ce60710";67833.46;"Houston";"TX";33

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+		<script src="script.js" async defer></script>
+		<title>Dog Groomer Co.</title>
+	</head>
+
+	<body>
+		<h1>Dog Groomer Co.</h1>
+
+		<main>
+			<div class="image-grid">
+				<div class="image-container">
+					<img
+						src="./images/dog1_before.webp"
+						alt="A fluffy white dog that needs a haircut"
+						id="dog1"
+						class="image"
+					/>
+					<button id="btn1" class="button">Groom</button>
+				</div>
+
+				<div class="image-container">
+					<img
+						src="./images/dog2_before.webp"
+						alt="A hairy brown & white dog that needs a haircut"
+						id="dog2"
+						class="image"
+					/>
+					<button id="btn2" class="button">Groom</button>
+				</div>
+
+				<div class="image-container">
+					<img
+						src="./images/dog3_before.webp"
+						alt="A hairy brown & black dog that needs a haircut"
+						id="dog3"
+						class="image"
+					/>
+					<button id="btn3" class="button">Groom</button>
+				</div>
+			</div>
+		</main>
+
+		<footer id="footer">
+			<a href="#" onclick="replaceImages()" class="footer-link"
+				>Replace images with their alt text.</a
+			>
+		</footer>
+	</body>
+</html>

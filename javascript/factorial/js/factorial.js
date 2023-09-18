@@ -2,16 +2,16 @@
 // };
 
 function factorial(num){
-	// base case
-	if (num < 0) {
-		return undefined
-	} else if (num == 0) {
-		return 1
-		// recursive case
-	} else {
-			return num * factorial(num - 1)
+		// base case
+    if (num < 0) {
+			return undefined
+		} else if (num == 0) {
+			return 1
+			// recursive case
+		} else {
+        return num * factorial(num - 1)
+		}
 	}
-}
 
 // tests
 console.log(factorial(8))  // 40320
