@@ -1,7 +1,8 @@
 # Code Platoon E&W
 
-Assignments for the DevOps Evening & Weekend Cohort.
+Most of the Software Engineering Assignments for the DevOps Evening & Weekend Cohort.
 
 - [BASH](/bash)
 - [Python](/python)
 - [JavaScript](/javascript)
+- [SQL](/sql)
