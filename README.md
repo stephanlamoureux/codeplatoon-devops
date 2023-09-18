@@ -1,6 +1,6 @@
 # Code Platoon E&W
 
-Most of the Software Engineering Assignments for the DevOps Evening & Weekend Cohort.
+Most of the Assignments for the Software Engineer Section of the DevOps Evening & Weekend Cohort.
 
 - [BASH](/bash)
 - [Python](/python)
