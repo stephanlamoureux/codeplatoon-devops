@@ -55,6 +55,8 @@ main {
 	flex: 0 0 calc(33.33% - 20px);
 	margin-bottom: 20px;
 	text-align: center;
+	color: white;
+	font-size: 1.4rem;
 }
 
 .image {
@@ -114,5 +116,9 @@ footer {
 @media screen and (max-width: 900px) {
 	.image-grid {
 		flex-direction: column;
+	}
+
+	.image-container:not(:last-child) {
+		padding-bottom: 50px;
 	}
 }
