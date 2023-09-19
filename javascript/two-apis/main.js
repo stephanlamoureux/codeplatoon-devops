@@ -27,7 +27,7 @@ const dadLoading = document.querySelector('#dad-loading')
 async function fetchDadJoke() {
 	try {
 		dadLoading.classList.remove('hidden')
-		const results = await fetch('http://icanhazdadjoke.com', {
+		const results = await fetch('https://icanhazdadjoke.com', {
 			headers: {
 				Accept: 'application/json',
 			},
