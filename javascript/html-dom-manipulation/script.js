@@ -9,26 +9,39 @@ function changeImage(imageId, newImageSrc) {
 }
 
 // Attach click event handlers to each button
-document.getElementById('btn1').addEventListener('click', function () {
-	const button = document.getElementById('btn1')
-	changeImage('dog1', './images/dog1_after.webp')
-	button.textContent = 'Thanks!'
-	button.disabled = true
-})
+function attachClickHandler(btnId, imgId, imgSrc) {
+	const button = document.getElementById(btnId)
+	button.addEventListener('click', function () {
+		changeImage(imgId, imgSrc)
+		button.textContent = 'Thanks!'
+		button.disabled = true
+	})
+}
 
-document.getElementById('btn2').addEventListener('click', function () {
-	changeImage('dog2', './images/dog2_after.webp')
-	const button = document.getElementById('btn2')
-	button.textContent = 'Thanks!'
-	button.disabled = true
-})
+attachClickHandler('btn1', 'dog1', './images/dog1_after.webp')
+attachClickHandler('btn2', 'dog2', './images/dog2_after.webp')
+attachClickHandler('btn3', 'dog3', './images/dog3_after.webp')
 
-document.getElementById('btn3').addEventListener('click', function () {
-	changeImage('dog3', './images/dog3_after.webp')
-	const button = document.getElementById('btn3')
-	button.textContent = 'Thanks!'
-	button.disabled = true
-})
+// document.getElementById('btn1').addEventListener('click', function () {
+// 	const button = document.getElementById('btn1')
+// 	changeImage('dog1', './images/dog1_after.webp')
+// 	button.textContent = 'Thanks!'
+// 	button.disabled = true
+// })
+
+// document.getElementById('btn2').addEventListener('click', function () {
+// 	changeImage('dog2', './images/dog2_after.webp')
+// 	const button = document.getElementById('btn2')
+// 	button.textContent = 'Thanks!'
+// 	button.disabled = true
+// })
+
+// document.getElementById('btn3').addEventListener('click', function () {
+// 	changeImage('dog3', './images/dog3_after.webp')
+// 	const button = document.getElementById('btn3')
+// 	button.textContent = 'Thanks!'
+// 	button.disabled = true
+// })
 
 // Log alt text of each image
 const images = document.querySelectorAll('img')
