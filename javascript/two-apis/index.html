@@ -3,11 +3,33 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="./style.css" />
-		<title>Document</title>
+		<title>Joke Generator</title>
 	</head>
 
 	<body>
+		<h1>Joke of The Day</h1>
+		<div class="container">
+			<div class="chuck">
+				<h2>Random Chuck Norris Joke:</h2>
+				<button class="button" onclick="fetchNorrisJoke()">Generate</button>
+				<p class="joke" id="norris-joke">
+					<span class="hidden" id="loading">Loading...</span>
+				</p>
+			</div>
+
+			<div class="dad">
+				<h2>Random Dad Joke:</h2>
+				<button class="button" onclick="fetchDadJoke()">Generate</button>
+				<p class="joke" id="dad-joke">
+					<span class="hidden" id="dad-loading">Loading...</span>
+				</p>
+			</div>
+		</div>
+
 		<script src="./main.js"></script>
 	</body>
 </html>
