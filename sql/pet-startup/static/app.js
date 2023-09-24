@@ -24,7 +24,7 @@ function getOwners() {
 
 			data.forEach(owner => {
 				const listItem = document.createElement('li')
-				listItem.textContent = `Name: ${owner[0]}`
+				listItem.textContent = `Owner Name: ${owner[0]}`
 				ownersList.appendChild(listItem)
 			})
 		})

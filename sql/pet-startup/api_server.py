@@ -18,7 +18,6 @@ conn = psycopg2.connect(
 
 @app.route("/")
 def index():
-    cur = conn.cursor()
     return render_template("index.html")
 
 
