@@ -40,7 +40,7 @@ def all_users():
 @app.route("/owners/<id>")
 def single_user(id):
     cur = conn.cursor()
-    cur.execute(f"SELECT * from pet WHERE id = {id}")
+    cur.execute(f"SELECT * FROM pet WHERE id = {id}")
     records = cur.fetchone()
     return jsonify(records)
 
