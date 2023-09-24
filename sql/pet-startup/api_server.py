@@ -10,7 +10,7 @@ CORS(app)
 conn = psycopg2.connect(
     database="pets",
     user="cpadmin",
-    password="NvFGNEym64pBZqn",
+    password="DATABASE_PASSWORD",
     host="cpewpostgres.chzveui56egk.us-east-1.rds.amazonaws.com",
     port="5432",
 )
