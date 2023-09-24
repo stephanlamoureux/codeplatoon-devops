@@ -5,7 +5,6 @@ function getPets() {
 		.then(response => response.json())
 		.then(data => {
 			const petsList = document.getElementById('pets')
-			petsList.innerHTML = ''
 
 			data.forEach(pet => {
 				const listItem = document.createElement('li')
@@ -20,7 +19,6 @@ function getOwners() {
 		.then(response => response.json())
 		.then(data => {
 			const ownersList = document.getElementById('owners')
-			ownersList.innerHTML = ''
 
 			data.forEach(owner => {
 				const listItem = document.createElement('li')
