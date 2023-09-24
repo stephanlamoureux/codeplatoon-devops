@@ -9,7 +9,7 @@ CORS(app)
 # Configure mysql database
 app.config["MYSQL_DATABASE_HOST"] = "cpew.chzveui56egk.us-east-1.rds.amazonaws.com"
 app.config["MYSQL_DATABASE_USER"] = "admin"
-app.config["MYSQL_DATABASE_PASSWORD"] = "NvFGNEym64pBZqn"
+app.config["MYSQL_DATABASE_PASSWORD"] = "DATABASE_PASSWORD"
 app.config["MYSQL_DATABASE_DB"] = "cars"
 app.config["MYSQL_DATABASE_PORT"] = 3306
 mysql = MySQL()
